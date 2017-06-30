@@ -1,5 +1,19 @@
 """
-Contains all formatting strings for shell.
+Contains all formatting strings for shell, \033[32m especially the colors.\033[39m 
+
+If you just want to list through colors use:
+    COLOR_LIST
+    COLOR_LIST_BRIGHT
+    COLOR_LIST_NORMAL
+
+For background colors:
+    BG_LIST
+    BG_LIST_BRIGHT
+    BG_LIST_NORMAL
+
+To clear, use COLOR_DEFAULT and BG_DEFAULT.
+To clear effects, use CLEAR_ALL
+
 """
 
 #http://misc.flogisoft.com/bash/tip_colors_and_formatting
